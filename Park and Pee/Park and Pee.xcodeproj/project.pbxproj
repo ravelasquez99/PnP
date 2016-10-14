@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D826ADFB1DB08BDA0050CA82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826ADFA1DB08BDA0050CA82 /* AppDelegate.swift */; };
+		D826ADFD1DB08BDA0050CA82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826ADFC1DB08BDA0050CA82 /* ViewController.swift */; };
+		D826AE001DB08BDA0050CA82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D826ADFE1DB08BDA0050CA82 /* Main.storyboard */; };
+		D826AE021DB08BDA0050CA82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D826AE011DB08BDA0050CA82 /* Assets.xcassets */; };
+		D826AE051DB08BDA0050CA82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D826AE031DB08BDA0050CA82 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D826ADF71DB08BDA0050CA82 /* Park and Pee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Park and Pee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D826ADFA1DB08BDA0050CA82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D826ADFC1DB08BDA0050CA82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D826ADFF1DB08BDA0050CA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D826AE011DB08BDA0050CA82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D826AE041DB08BDA0050CA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D826AE061DB08BDA0050CA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D826ADF41DB08BD90050CA82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D826ADEE1DB08BD90050CA82 = {
+			isa = PBXGroup;
+			children = (
+				D826ADF91DB08BDA0050CA82 /* Park and Pee */,
+				D826ADF81DB08BDA0050CA82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D826ADF81DB08BDA0050CA82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D826ADF71DB08BDA0050CA82 /* Park and Pee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D826ADF91DB08BDA0050CA82 /* Park and Pee */ = {
+			isa = PBXGroup;
+			children = (
+				D826ADFA1DB08BDA0050CA82 /* AppDelegate.swift */,
+				D826ADFC1DB08BDA0050CA82 /* ViewController.swift */,
+				D826ADFE1DB08BDA0050CA82 /* Main.storyboard */,
+				D826AE011DB08BDA0050CA82 /* Assets.xcassets */,
+				D826AE031DB08BDA0050CA82 /* LaunchScreen.storyboard */,
+				D826AE061DB08BDA0050CA82 /* Info.plist */,
+			);
+			path = "Park and Pee";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D826ADF61DB08BD90050CA82 /* Park and Pee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D826AE091DB08BDA0050CA82 /* Build configuration list for PBXNativeTarget "Park and Pee" */;
+			buildPhases = (
+				D826ADF31DB08BD90050CA82 /* Sources */,
+				D826ADF41DB08BD90050CA82 /* Frameworks */,
+				D826ADF51DB08BD90050CA82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Park and Pee";
+			productName = "Park and Pee";
+			productReference = D826ADF71DB08BDA0050CA82 /* Park and Pee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D826ADEF1DB08BD90050CA82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Ricky;
+				TargetAttributes = {
+					D826ADF61DB08BD90050CA82 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 87ZJ66R6UJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D826ADF21DB08BD90050CA82 /* Build configuration list for PBXProject "Park and Pee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D826ADEE1DB08BD90050CA82;
+			productRefGroup = D826ADF81DB08BDA0050CA82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D826ADF61DB08BD90050CA82 /* Park and Pee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D826ADF51DB08BD90050CA82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D826AE051DB08BDA0050CA82 /* LaunchScreen.storyboard in Resources */,
+				D826AE021DB08BDA0050CA82 /* Assets.xcassets in Resources */,
+				D826AE001DB08BDA0050CA82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D826ADF31DB08BD90050CA82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D826ADFD1DB08BDA0050CA82 /* ViewController.swift in Sources */,
+				D826ADFB1DB08BDA0050CA82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D826ADFE1DB08BDA0050CA82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D826ADFF1DB08BDA0050CA82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D826AE031DB08BDA0050CA82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D826AE041DB08BDA0050CA82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D826AE071DB08BDA0050CA82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D826AE081DB08BDA0050CA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D826AE0A1DB08BDA0050CA82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87ZJ66R6UJ;
+				INFOPLIST_FILE = "Park and Pee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rickyvelasquez.Park-and-Pee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D826AE0B1DB08BDA0050CA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87ZJ66R6UJ;
+				INFOPLIST_FILE = "Park and Pee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rickyvelasquez.Park-and-Pee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D826ADF21DB08BD90050CA82 /* Build configuration list for PBXProject "Park and Pee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D826AE071DB08BDA0050CA82 /* Debug */,
+				D826AE081DB08BDA0050CA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D826AE091DB08BDA0050CA82 /* Build configuration list for PBXNativeTarget "Park and Pee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D826AE0A1DB08BDA0050CA82 /* Debug */,
+				D826AE0B1DB08BDA0050CA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D826ADEF1DB08BD90050CA82 /* Project object */;
+}
