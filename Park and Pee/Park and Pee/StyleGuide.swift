@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-class StyleGuideManager {
-    static let sharedInstance = StyleGuideManager()
+class StyleGuide {
+    static let sharedInstance = StyleGuide()
 
     let PnPLightBlue = UIColor.init(colorLiteralRed: 117, green: 197, blue: 230, alpha: 1)
     let PnPDarkBlue = UIColor(colorLiteralRed: 2, green: 107, blue: 104, alpha: 1)

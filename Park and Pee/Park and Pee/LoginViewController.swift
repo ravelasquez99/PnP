@@ -10,18 +10,20 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
-    let logoImageView = UIImageView(image: StyleGuideManager.sharedInstance.logoImage)
-    let brandNameLogo = StyleGuideManager.BrandLabelWithText(text: "Park N' Pee")
+    let logoImageView = UIImageView(image: StyleGuide.sharedInstance.logoImage)
+    let brandNameLogo = StyleGuide.BrandLabelWithText(text: "Park N' Pee")
     let emailTextField = UITextField()
     let passwordTextField = UITextField()
     let confirmPasswordTextField = UITextField()
     let facebookButton = UIButton()
     let signUpSignInButton = UIButton()
+    
     var isSignUpVariation = false {
         didSet {
             self.setupSubviews()
         }
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
